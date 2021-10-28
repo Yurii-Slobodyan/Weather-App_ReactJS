@@ -1,0 +1,48 @@
+﻿.search-bar {
+  width: 100%;
+  height: max-content;
+  display: flex;
+  justify-content: space-around;
+  background-color: #a066d6;
+  text-align: center;
+
+  &__userCity,
+  &__btn {
+    background: transparent;
+    border: 1px solid #ffffff;
+    text-align: center;
+    color: #ffffff;
+    font-size: 1.2em;
+    text-transform: capitalize;
+  }
+
+  &__userCity {
+    width: 80%;
+    height: 10px;
+    margin: 20px 0 10px 0;
+    border-radius: 15px;
+    font-family: High Tower Text;
+    padding: 10px;
+  }
+
+  &__userCity:hover {
+    letter-spacing: 0;
+  }
+
+  &__btn {
+    width: 45%;
+    margin: 0 0 20px 0;
+    background-color: #70b3ac;
+    border-radius: 20px;
+    transition: ease-in-out all 0.5s;
+    font-family: Agency FB;
+    padding: 5px;
+    letter-spacing: 2px;
+  }
+
+  &__btn:hover {
+    cursor: pointer;
+    background-color: #23b6aa;
+    border-color: #000000;
+  }
+}

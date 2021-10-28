@@ -1,0 +1,64 @@
+﻿.current-weather {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0 0 15px 15px;
+  padding: 20px 0;
+  background-color: #9951dd3f;
+
+  &__main-data {
+    &_temp {
+      text-align: center;
+      font-size: 4em;
+      font-family: Agency FB;
+      color: #23b6aa;
+      text-shadow: 3px 2px #a066d6;
+      margin: 0 0 20px 0;
+
+      span {
+        font-size: 0.9em;
+      }
+    }
+
+    &_description {
+      text-align: center;
+      font-family: High Tower Text;
+      font-size: 1.3em;
+      color: #ffffff;
+    }
+
+    &_icon {
+      width: 150px;
+      margin: 0;
+    }
+  }
+
+  &__additional-data {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(2, 180, 180, 0.698);
+    padding: 20px 0;
+    border-radius: 20px;
+
+    &_items {
+      font-family: High Tower Text;
+      font-size: 1.3em;
+      color: #ffffff;
+      margin: 0 50px 0 50px;
+      text-align: center;
+      color: #3cffc5;
+
+      span {
+        font-size: 1.9em;
+        color: #a066d6;
+        text-shadow: 3px 2px #23b6aa;
+        margin: 0;
+      }
+    }
+  }
+}
